@@ -85,16 +85,11 @@ nav ul li:last-child .nav__link {
 
 .nav__link.is-active::after {
   position: absolute;
-  bottom: 0;
-  /* stylelint-disable-next-line order/properties-order */
   right: 0;
+  bottom: 0;
   left: 0;
-
-  height: 3px;
-
-  background-color: var(--color-blue);
-  /* stylelint-disable-next-line order/properties-order */
   content: '';
-
+  height: 3px;
+  background-color: var(--color-blue);
   border-radius: 8px;
 }

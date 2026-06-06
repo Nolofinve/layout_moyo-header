@@ -88,8 +88,12 @@ nav ul li:last-child .nav__link {
   right: 0;
   bottom: 0;
   left: 0;
+  /* stylelint-disable-next-line order/properties-order */
   content: '';
-  height: 3px;
+  /* stylelint-disable-next-line order/properties-order */
+  height: 4px;
+  /* stylelint-disable-next-line order/properties-order */
   background-color: var(--color-blue);
+  /* stylelint-disable-next-line order/properties-order */
   border-radius: 8px;
 }
